@@ -19,6 +19,8 @@ statistics. These scripts are described below, followed by the models.
 Participant-level data are not publicly shared. Running the scripts
 requires access to the prepared datasets.
 
+Supplemental material accompanying the manuscript is available in supplemental_material/.
+
 The analyses follow 5 steps. Each has its own script and output folders;
 each answers the question the previous step raises:
 
