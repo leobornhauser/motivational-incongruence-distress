@@ -1,0 +1,1 @@
+Bern: the unconstrained model did not converge, so the constrained vs. unconstrained comparison could not be computed. See the constrained model's own summary file instead.

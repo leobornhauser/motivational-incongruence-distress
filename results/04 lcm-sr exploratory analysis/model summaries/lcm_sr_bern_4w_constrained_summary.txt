@@ -1,0 +1,237 @@
+lavaan 0.6-21 ended normally after 156 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        38
+  Number of equality constraints                     8
+
+  Number of observations                           101
+  Number of missing patterns                         8
+
+Model Test User Model:
+                                                      
+  Test statistic                                29.917
+  Degrees of freedom                                14
+  P-value (Chi-square)                           0.008
+
+Model Test Baseline Model:
+
+  Test statistic                               371.809
+  Degrees of freedom                                28
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.954
+  Tucker-Lewis Index (TLI)                       0.907
+                                                      
+  Robust Comparative Fit Index (CFI)             0.961
+  Robust Tucker-Lewis Index (TLI)                0.923
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)               -302.460
+  Loglikelihood unrestricted model (H1)       -287.502
+                                                      
+  Akaike (AIC)                                 664.920
+  Bayesian (BIC)                               743.373
+  Sample-size adjusted Bayesian (SABIC)        648.620
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.106
+  90 Percent confidence interval - lower         0.052
+  90 Percent confidence interval - upper         0.159
+  P-value H_0: RMSEA <= 0.050                    0.044
+  P-value H_0: RMSEA >= 0.080                    0.814
+                                                      
+  Robust RMSEA                                   0.116
+  90 Percent confidence interval - lower         0.035
+  90 Percent confidence interval - upper         0.187
+  P-value H_0: Robust RMSEA <= 0.050             0.076
+  P-value H_0: Robust RMSEA >= 0.080             0.813
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.090
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  I_inc =~                                                              
+    ink1              1.000                                  NA       NA
+    ink2              1.000                                  NA       NA
+    ink3              1.000                                  NA       NA
+    ink4              1.000                                  NA       NA
+  S_inc =~                                                              
+    ink1              0.000                                  NA       NA
+    ink2              1.000                                  NA       NA
+    ink3              2.000                                  NA       NA
+    ink4              3.000                                  NA       NA
+  I_gpd =~                                                              
+    gpd1              1.000                                  NA       NA
+    gpd2              1.000                                  NA       NA
+    gpd3              1.000                                  NA       NA
+    gpd4              1.000                                  NA       NA
+  S_gpd =~                                                              
+    gpd1              0.000                                  NA       NA
+    gpd2              1.000                                  NA       NA
+    gpd3              2.000                                  NA       NA
+    gpd4              3.000                                  NA       NA
+  inc_w_t1 =~                                                           
+    ink1              1.000                               1.094    1.676
+  inc_w_t2 =~                                                           
+    ink2              1.000                               0.921    1.372
+  inc_w_t3 =~                                                           
+    ink3              1.000                               0.748    1.143
+  inc_w_t4 =~                                                           
+    ink4              1.000                               0.651    0.968
+  gpd_w_t1 =~                                                           
+    gpd1              1.000                               0.915    1.762
+  gpd_w_t2 =~                                                           
+    gpd2              1.000                               0.724    1.627
+  gpd_w_t3 =~                                                           
+    gpd3              1.000                               0.518    1.592
+  gpd_w_t4 =~                                                           
+    gpd4              1.000                               0.463    1.254
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  inc_w_t2 ~                                                            
+    inc_w_t1   (a)    0.293    0.414    0.706    0.480    0.348    0.348
+  inc_w_t3 ~                                                            
+    inc_w_t2   (a)    0.293    0.414    0.706    0.480    0.360    0.360
+  inc_w_t4 ~                                                            
+    inc_w_t3   (a)    0.293    0.414    0.706    0.480    0.336    0.336
+  gpd_w_t2 ~                                                            
+    gpd_w_t1   (b)    0.459    0.213    2.155    0.031    0.580    0.580
+  gpd_w_t3 ~                                                            
+    gpd_w_t2   (b)    0.459    0.213    2.155    0.031    0.641    0.641
+  gpd_w_t4 ~                                                            
+    gpd_w_t3   (b)    0.459    0.213    2.155    0.031    0.513    0.513
+  gpd_w_t2 ~                                                            
+    inc_w_t1   (c)    0.140    0.161    0.866    0.387    0.211    0.211
+  gpd_w_t3 ~                                                            
+    inc_w_t2   (c)    0.140    0.161    0.866    0.387    0.248    0.248
+  gpd_w_t4 ~                                                            
+    inc_w_t3   (c)    0.140    0.161    0.866    0.387    0.225    0.225
+  inc_w_t2 ~                                                            
+    gpd_w_t1   (d)    0.443    0.283    1.565    0.117    0.440    0.440
+  inc_w_t3 ~                                                            
+    gpd_w_t2   (d)    0.443    0.283    1.565    0.117    0.428    0.428
+  inc_w_t4 ~                                                            
+    gpd_w_t3   (d)    0.443    0.283    1.565    0.117    0.352    0.352
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  I_inc ~~                                                              
+    S_inc             0.214    0.296    0.721    0.471    1.051    1.051
+    I_gpd            -0.685    1.103   -0.621    0.535   -1.036   -1.036
+    S_gpd             0.177    0.187    0.949    0.343    1.018    1.018
+  S_inc ~~                                                              
+    I_gpd             0.160    0.177    0.904    0.366    0.919    0.919
+    S_gpd            -0.045    0.040   -1.128    0.259   -0.985   -0.985
+  I_gpd ~~                                                              
+    S_gpd             0.141    0.125    1.127    0.260    0.941    0.941
+  I_inc ~~                                                              
+    inc_w_t1          0.000                               0.000    0.000
+    gpd_w_t1          0.000                               0.000    0.000
+  S_inc ~~                                                              
+    inc_w_t1          0.000                               0.000    0.000
+    gpd_w_t1          0.000                               0.000    0.000
+  I_gpd ~~                                                              
+    inc_w_t1          0.000                               0.000    0.000
+    gpd_w_t1          0.000                               0.000    0.000
+  S_gpd ~~                                                              
+    inc_w_t1          0.000                               0.000    0.000
+    gpd_w_t1          0.000                               0.000    0.000
+  inc_w_t1 ~~                                                           
+    gpd_w_t1          0.903    1.105    0.817    0.414    0.902    0.902
+ .inc_w_t2 ~~                                                           
+   .gpd_w_t2          0.215    0.080    2.677    0.007    0.800    0.800
+ .inc_w_t3 ~~                                                           
+   .gpd_w_t3          0.079    0.034    2.331    0.020    0.658    0.658
+ .inc_w_t4 ~~                                                           
+   .gpd_w_t4          0.124    0.049    2.525    0.012    0.794    0.794
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ink1              0.000                               0.000    0.000
+   .ink2              0.000                               0.000    0.000
+   .ink3              0.000                               0.000    0.000
+   .ink4              0.000                               0.000    0.000
+   .gpd1              0.000                               0.000    0.000
+   .gpd2              0.000                               0.000    0.000
+   .gpd3              0.000                               0.000    0.000
+   .gpd4              0.000                               0.000    0.000
+    inc_w_t1          0.000                               0.000    0.000
+   .inc_w_t2          0.000                               0.000    0.000
+   .inc_w_t3          0.000                               0.000    0.000
+   .inc_w_t4          0.000                               0.000    0.000
+    gpd_w_t1          0.000                               0.000    0.000
+   .gpd_w_t2          0.000                               0.000    0.000
+   .gpd_w_t3          0.000                               0.000    0.000
+   .gpd_w_t4          0.000                               0.000    0.000
+    I_inc             2.799    0.062   44.882    0.000       NA       NA
+    S_inc            -0.266    0.027   -9.885    0.000       NA       NA
+    I_gpd             0.993    0.046   21.363    0.000       NA       NA
+    S_gpd            -0.194    0.018  -11.061    0.000       NA       NA
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ink1              0.000                               0.000    0.000
+   .ink2              0.000                               0.000    0.000
+   .ink3              0.000                               0.000    0.000
+   .ink4              0.000                               0.000    0.000
+   .gpd1              0.000                               0.000    0.000
+   .gpd2              0.000                               0.000    0.000
+   .gpd3              0.000                               0.000    0.000
+   .gpd4              0.000                               0.000    0.000
+    I_inc            -0.771    1.652   -0.467    0.641       NA       NA
+    S_inc            -0.054    0.081   -0.663    0.507       NA       NA
+    I_gpd            -0.568    0.777   -0.731    0.465       NA       NA
+    S_gpd            -0.039    0.025   -1.559    0.119       NA       NA
+    inc_w_t1          1.197    1.659    0.721    0.471    1.000    1.000
+   .inc_w_t2          0.347    0.149    2.324    0.020    0.410    0.410
+   .inc_w_t3          0.225    0.067    3.343    0.001    0.403    0.403
+   .inc_w_t4          0.235    0.134    1.758    0.079    0.556    0.556
+    gpd_w_t1          0.838    0.775    1.081    0.280    1.000    1.000
+   .gpd_w_t2          0.209    0.053    3.916    0.000    0.398    0.398
+   .gpd_w_t3          0.063    0.026    2.447    0.014    0.236    0.236
+   .gpd_w_t4          0.104    0.025    4.117    0.000    0.483    0.483
+
+
+
+Standardized (std.all) regression paths and intercept-factor
+correlation (I_inc ~~ I_gpd), with 95% confidence intervals:
+
+        lhs op      rhs est.std    se ci.lower ci.upper
+1     I_inc ~~    I_gpd  -1.036 0.122   -1.274   -0.797
+2  inc_w_t2  ~ inc_w_t1   0.348 0.488   -0.609    1.304
+3  inc_w_t3  ~ inc_w_t2   0.360 0.505   -0.630    1.351
+4  inc_w_t4  ~ inc_w_t3   0.336 0.466   -0.577    1.249
+5  gpd_w_t2  ~ gpd_w_t1   0.580 0.263    0.065    1.095
+6  gpd_w_t3  ~ gpd_w_t2   0.641 0.279    0.094    1.188
+7  gpd_w_t4  ~ gpd_w_t3   0.513 0.289   -0.054    1.080
+8  gpd_w_t2  ~ inc_w_t1   0.211 0.297   -0.371    0.793
+9  gpd_w_t3  ~ inc_w_t2   0.248 0.326   -0.391    0.887
+10 gpd_w_t4  ~ inc_w_t3   0.225 0.307   -0.376    0.827
+11 inc_w_t2  ~ gpd_w_t1   0.440 0.363   -0.272    1.151
+12 inc_w_t3  ~ gpd_w_t2   0.428 0.351   -0.259    1.116
+13 inc_w_t4  ~ gpd_w_t3   0.352 0.320   -0.276    0.980
+
+
+The same effects averaged across waves (estimates and confidence
+limits), as reported in Table S4:
+
+     effect   est.std  ci.lower  ci.upper
+  r_INC,GPD -1.035557 -1.273857 -0.797256
+ INC -> GPD  0.228152 -0.379366  0.835669
+ GPD -> INC  0.406830 -0.268891  1.082551
+ INC -> INC  0.348012 -0.605325  1.301349
+ GPD -> GPD  0.577920  0.034970  1.120871

@@ -1,0 +1,130 @@
+lavaan 0.6-21 ended normally after 109 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        44
+  Number of equality constraints                     6
+
+  Number of observations                           101
+  Number of missing patterns                         8
+
+Model Test User Model:
+                                                      
+  Test statistic                                96.323
+  Degrees of freedom                                 6
+  P-value (Chi-square)                           0.000
+
+Model Test Baseline Model:
+
+  Test statistic                               371.809
+  Degrees of freedom                                28
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.737
+  Tucker-Lewis Index (TLI)                      -0.226
+                                                      
+  Robust Comparative Fit Index (CFI)             0.803
+  Robust Tucker-Lewis Index (TLI)                0.082
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)               -335.663
+  Loglikelihood unrestricted model (H1)       -287.502
+                                                      
+  Akaike (AIC)                                 747.326
+  Bayesian (BIC)                               846.700
+  Sample-size adjusted Bayesian (SABIC)        726.679
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.386
+  90 Percent confidence interval - lower         0.320
+  90 Percent confidence interval - upper         0.456
+  P-value H_0: RMSEA <= 0.050                    0.000
+  P-value H_0: RMSEA >= 0.080                    1.000
+                                                      
+  Robust RMSEA                                   0.400
+  90 Percent confidence interval - lower         0.320
+  90 Percent confidence interval - upper         0.487
+  P-value H_0: Robust RMSEA <= 0.050             0.000
+  P-value H_0: Robust RMSEA >= 0.080             1.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.389
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Observed
+  Observed information based on                Hessian
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ink1 ~~                                             
+    ink2              0.152    0.063    2.417    0.016
+    ink3              0.014    0.064    0.216    0.829
+    ink4             -0.063    0.071   -0.883    0.377
+    gpd1              0.353    0.078    4.514    0.000
+    gpd2              0.064    0.040    1.599    0.110
+    gpd3              0.017    0.034    0.490    0.624
+    gpd4             -0.038    0.041   -0.918    0.359
+  ink2 ~~                                             
+    ink3              0.320    0.082    3.905    0.000
+    ink4              0.355    0.100    3.544    0.000
+    gpd1              0.064    0.062    1.037    0.300
+    gpd2              0.202    0.041    4.872    0.000
+    gpd3              0.159    0.037    4.255    0.000
+    gpd4              0.163    0.051    3.233    0.001
+  ink3 ~~                                             
+    ink4              0.450    0.124    3.642    0.000
+    gpd1             -0.091    0.067   -1.352    0.176
+    gpd2              0.098    0.042    2.329    0.020
+    gpd3              0.185    0.047    3.896    0.000
+    gpd4              0.200    0.061    3.260    0.001
+  ink4 ~~                                             
+    gpd1             -0.185    0.073   -2.535    0.011
+    gpd2              0.130    0.053    2.446    0.014
+    gpd3              0.181    0.056    3.215    0.001
+    gpd4              0.329    0.078    4.236    0.000
+  gpd1 ~~                                             
+    gpd2              0.075    0.039    1.936    0.053
+    gpd3             -0.006    0.032   -0.174    0.862
+    gpd4             -0.067    0.036   -1.843    0.065
+  gpd2 ~~                                             
+    gpd3              0.091    0.021    4.326    0.000
+    gpd4              0.090    0.028    3.167    0.002
+  gpd3 ~~                                             
+    gpd4              0.105    0.031    3.442    0.001
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+    ink1    (m_nc)    2.515    0.088   28.535    0.000
+    ink2    (m_nc)    2.515    0.088   28.535    0.000
+    ink3    (m_nc)    2.515    0.088   28.535    0.000
+    ink4    (m_nc)    2.515    0.088   28.535    0.000
+    gpd1    (m_gp)    0.671    0.052   13.010    0.000
+    gpd2    (m_gp)    0.671    0.052   13.010    0.000
+    gpd3    (m_gp)    0.671    0.052   13.010    0.000
+    gpd4    (m_gp)    0.671    0.052   13.010    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+    ink1              0.531    0.098    5.429    0.000
+    ink2              0.474    0.082    5.765    0.000
+    ink3              0.523    0.113    4.606    0.000
+    ink4              0.728    0.157    4.646    0.000
+    gpd1              0.427    0.073    5.814    0.000
+    gpd2              0.174    0.028    6.161    0.000
+    gpd3              0.119    0.025    4.851    0.000
+    gpd4              0.207    0.045    4.647    0.000
+
+
+
+Structural-change test (Hamaker et al., 2015): means constrained
+equal across waves, covariance structure saturated. A significant
+chi-square means the wave means genuinely differ over time.
+
+Bern: chi-square(6) = 96.32, p = <2e-16 -- there IS a significant structural change (trend) over time.

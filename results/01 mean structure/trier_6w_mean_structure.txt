@@ -1,0 +1,180 @@
+lavaan 0.6-21 ended normally after 139 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        90
+  Number of equality constraints                    10
+
+  Number of observations                          1410
+  Number of missing patterns                       193
+
+Model Test User Model:
+                                                      
+  Test statistic                               572.910
+  Degrees of freedom                                10
+  P-value (Chi-square)                           0.000
+
+Model Test Baseline Model:
+
+  Test statistic                             12262.541
+  Degrees of freedom                                66
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.954
+  Tucker-Lewis Index (TLI)                       0.695
+                                                      
+  Robust Comparative Fit Index (CFI)             0.960
+  Robust Tucker-Lewis Index (TLI)                0.737
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -9841.115
+  Loglikelihood unrestricted model (H1)      -9554.660
+                                                      
+  Akaike (AIC)                               19842.229
+  Bayesian (BIC)                             20262.337
+  Sample-size adjusted Bayesian (SABIC)      20008.206
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.200
+  90 Percent confidence interval - lower         0.186
+  90 Percent confidence interval - upper         0.214
+  P-value H_0: RMSEA <= 0.050                    0.000
+  P-value H_0: RMSEA >= 0.080                    1.000
+                                                      
+  Robust RMSEA                                   0.207
+  90 Percent confidence interval - lower         0.192
+  90 Percent confidence interval - upper         0.223
+  P-value H_0: Robust RMSEA <= 0.050             0.000
+  P-value H_0: Robust RMSEA >= 0.080             1.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.077
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Observed
+  Observed information based on                Hessian
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ink1 ~~                                             
+    ink2              0.464    0.024   19.206    0.000
+    ink3              0.450    0.025   18.174    0.000
+    ink4              0.393    0.023   16.814    0.000
+    ink5              0.391    0.024   15.962    0.000
+    ink6              0.352    0.026   13.783    0.000
+    gpd1              0.387    0.021   18.653    0.000
+    gpd2              0.264    0.017   15.999    0.000
+    gpd3              0.239    0.016   14.520    0.000
+    gpd4              0.203    0.016   12.435    0.000
+    gpd5              0.188    0.016   11.531    0.000
+    gpd6              0.164    0.017    9.909    0.000
+  ink2 ~~                                             
+    ink3              0.546    0.025   21.906    0.000
+    ink4              0.473    0.023   20.111    0.000
+    ink5              0.473    0.025   19.135    0.000
+    ink6              0.453    0.026   17.639    0.000
+    gpd1              0.328    0.019   17.357    0.000
+    gpd2              0.322    0.016   19.669    0.000
+    gpd3              0.296    0.016   18.157    0.000
+    gpd4              0.271    0.016   16.699    0.000
+    gpd5              0.257    0.016   15.685    0.000
+    gpd6              0.232    0.016   14.095    0.000
+  ink3 ~~                                             
+    ink4              0.555    0.026   21.460    0.000
+    ink5              0.543    0.027   20.213    0.000
+    ink6              0.529    0.028   18.765    0.000
+    gpd1              0.313    0.019   16.310    0.000
+    gpd2              0.314    0.017   18.629    0.000
+    gpd3              0.346    0.018   19.558    0.000
+    gpd4              0.318    0.018   18.020    0.000
+    gpd5              0.298    0.018   16.868    0.000
+    gpd6              0.281    0.018   15.693    0.000
+  ink4 ~~                                             
+    ink5              0.580    0.028   20.782    0.000
+    ink6              0.561    0.029   19.216    0.000
+    gpd1              0.257    0.018   14.267    0.000
+    gpd2              0.277    0.016   17.058    0.000
+    gpd3              0.302    0.017   17.617    0.000
+    gpd4              0.350    0.018   19.166    0.000
+    gpd5              0.321    0.018   17.616    0.000
+    gpd6              0.311    0.019   16.707    0.000
+  ink5 ~~                                             
+    ink6              0.638    0.032   20.044    0.000
+    gpd1              0.251    0.019   13.313    0.000
+    gpd2              0.273    0.017   15.993    0.000
+    gpd3              0.308    0.018   17.029    0.000
+    gpd4              0.325    0.019   17.268    0.000
+    gpd5              0.373    0.020   18.833    0.000
+    gpd6              0.344    0.020   17.230    0.000
+  ink6 ~~                                             
+    gpd1              0.205    0.019   10.628    0.000
+    gpd2              0.260    0.018   14.492    0.000
+    gpd3              0.303    0.019   15.771    0.000
+    gpd4              0.322    0.020   16.134    0.000
+    gpd5              0.363    0.021   17.376    0.000
+    gpd6              0.418    0.022   18.722    0.000
+  gpd1 ~~                                             
+    gpd2              0.281    0.014   19.760    0.000
+    gpd3              0.257    0.014   18.552    0.000
+    gpd4              0.221    0.013   16.580    0.000
+    gpd5              0.205    0.013   15.434    0.000
+    gpd6              0.175    0.013   13.493    0.000
+  gpd2 ~~                                             
+    gpd3              0.276    0.013   21.780    0.000
+    gpd4              0.259    0.013   20.568    0.000
+    gpd5              0.245    0.013   19.541    0.000
+    gpd6              0.225    0.013   17.955    0.000
+  gpd3 ~~                                             
+    gpd4              0.290    0.014   21.450    0.000
+    gpd5              0.282    0.014   20.730    0.000
+    gpd6              0.264    0.014   19.352    0.000
+  gpd4 ~~                                             
+    gpd5              0.303    0.014   21.157    0.000
+    gpd6              0.287    0.014   19.907    0.000
+  gpd5 ~~                                             
+    gpd6              0.316    0.015   20.916    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+    ink1    (m_nc)    3.081    0.024  130.837    0.000
+    ink2    (m_nc)    3.081    0.024  130.837    0.000
+    ink3    (m_nc)    3.081    0.024  130.837    0.000
+    ink4    (m_nc)    3.081    0.024  130.837    0.000
+    ink5    (m_nc)    3.081    0.024  130.837    0.000
+    ink6    (m_nc)    3.081    0.024  130.837    0.000
+    gpd1    (m_gp)    1.981    0.017  115.909    0.000
+    gpd2    (m_gp)    1.981    0.017  115.909    0.000
+    gpd3    (m_gp)    1.981    0.017  115.909    0.000
+    gpd4    (m_gp)    1.981    0.017  115.909    0.000
+    gpd5    (m_gp)    1.981    0.017  115.909    0.000
+    gpd6    (m_gp)    1.981    0.017  115.909    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+    ink1              0.637    0.029   21.686    0.000
+    ink2              0.673    0.027   25.150    0.000
+    ink3              0.757    0.030   25.444    0.000
+    ink4              0.727    0.030   24.525    0.000
+    ink5              0.801    0.034   23.825    0.000
+    ink6              0.865    0.039   22.455    0.000
+    gpd1              0.462    0.019   23.920    0.000
+    gpd2              0.371    0.014   26.241    0.000
+    gpd3              0.392    0.015   26.074    0.000
+    gpd4              0.403    0.016   25.387    0.000
+    gpd5              0.403    0.016   24.553    0.000
+    gpd6              0.404    0.017   23.515    0.000
+
+
+
+Structural-change test (Hamaker et al., 2015): means constrained
+equal across waves, covariance structure saturated. A significant
+chi-square means the wave means genuinely differ over time.
+
+Trier: chi-square(10) = 572.91, p = <2e-16 -- there IS a significant structural change (trend) over time.

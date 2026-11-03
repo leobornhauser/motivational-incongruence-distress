@@ -1,0 +1,28 @@
+################### Nested Model Comparison #########################
+
+Chi-Squared Difference Test
+
+                             Df   AIC   BIC  Chisq Chisq diff Df diff Pr(>Chisq)    
+fit_riclpm_trier             37 19338 19616 122.74                                  
+fit_riclpm_trier_constrained 53 19364 19558 180.17     57.433      16  1.408e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+####################### Model Fit Indices ###########################
+                                chisq df pvalue rmsea   cfi   tli  srmr        aic        bic
+fit_riclpm_trier             122.739† 37   .000 .041† .993† .987† .052† 19338.058† 19616.380 
+fit_riclpm_trier_constrained 180.172  53   .000 .041  .990  .987  .061  19363.491  19557.791†
+
+################## Differences in Fit Indices #######################
+                                                df rmsea    cfi tli  srmr    aic     bic
+fit_riclpm_trier_constrained - fit_riclpm_trier 16 0.001 -0.003   0 0.009 25.433 -58.589
+
+The following lavaan models were compared:
+    fit_riclpm_trier
+    fit_riclpm_trier_constrained
+To view results, assign the compareFit() output to an object and  use the summary() method; see the class?FitDiff help page.
+
+
+RMSEA using unconstrained model as h1 model:
+rmsea 
+0.043 

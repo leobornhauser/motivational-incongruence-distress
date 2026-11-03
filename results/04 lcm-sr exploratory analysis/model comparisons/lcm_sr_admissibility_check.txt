@@ -1,0 +1,9 @@
+# A tibble: 6 × 4
+  sample model         post_check negative_variances
+  <chr>  <chr>         <lgl>                   <int>
+1 Bern   constrained   FALSE                       4
+2 Bern   unconstrained FALSE                       4
+3 Zurich constrained   FALSE                       0
+4 Zurich unconstrained FALSE                       1
+5 Trier  constrained   FALSE                       0
+6 Trier  unconstrained TRUE                        0

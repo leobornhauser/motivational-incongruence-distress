@@ -1,0 +1,124 @@
+lavaan 0.6-21 did NOT end normally after 2108 iterations
+** WARNING ** Estimates below are most likely unreliable
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        35
+  Number of equality constraints                     6
+
+  Number of observations                           101
+  Number of missing patterns                         8
+
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate   Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  RI_inc =~                                                              
+    ink1               1.000                                  NA       NA
+    ink2               1.000                                  NA       NA
+    ink3               1.000                                  NA       NA
+    ink4               1.000                                  NA       NA
+  RI_gpd =~                                                              
+    gpd1               1.000                                  NA       NA
+    gpd2               1.000                                  NA       NA
+    gpd3               1.000                                  NA       NA
+    gpd4               1.000                                  NA       NA
+  inc_w_t1 =~                                                            
+    ink1               1.000                              99.090  132.900
+  inc_w_t2 =~                                                            
+    ink2               1.000                              99.090  142.180
+  inc_w_t3 =~                                                            
+    ink3               1.000                              99.090  139.265
+  inc_w_t4 =~                                                            
+    ink4               1.000                              99.091  128.152
+  gpd_w_t1 =~                                                            
+    gpd1               1.000                              57.487   94.712
+  gpd_w_t2 =~                                                            
+    gpd2               1.000                              57.486  134.097
+  gpd_w_t3 =~                                                            
+    gpd3               1.000                              57.485  155.151
+  gpd_w_t4 =~                                                            
+    gpd4               1.000                              57.486  124.789
+
+Regressions:
+                   Estimate   Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  inc_w_t2 ~                                                             
+    inc_w_t1           1.187       NA                      1.187    1.187
+  inc_w_t3 ~                                                             
+    inc_w_t2           0.951       NA                      0.951    0.951
+  inc_w_t4 ~                                                             
+    inc_w_t3           0.308       NA                      0.308    0.308
+  gpd_w_t2 ~                                                             
+    gpd_w_t1          -0.114       NA                     -0.114   -0.114
+  gpd_w_t3 ~                                                             
+    gpd_w_t2           0.275       NA                      0.275    0.275
+  gpd_w_t4 ~                                                             
+    gpd_w_t3           0.724       NA                      0.724    0.724
+  gpd_w_t2 ~                                                             
+    inc_w_t1           0.646       NA                      1.114    1.114
+  gpd_w_t3 ~                                                             
+    inc_w_t2           0.421       NA                      0.725    0.725
+  gpd_w_t4 ~                                                             
+    inc_w_t3           0.160       NA                      0.276    0.276
+  inc_w_t2 ~                                                             
+    gpd_w_t1          -0.323       NA                     -0.188   -0.188
+  inc_w_t3 ~                                                             
+    gpd_w_t2           0.084       NA                      0.049    0.049
+  inc_w_t4 ~                                                             
+    gpd_w_t3           1.192       NA                      0.692    0.692
+
+Covariances:
+                   Estimate   Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  inc_w_t1 ~~                                                            
+    gpd_w_t1        5696.290       NA                      1.000    1.000
+ .inc_w_t2 ~~                                                            
+   .gpd_w_t2           0.384       NA                      0.882    0.882
+ .inc_w_t3 ~~                                                            
+   .gpd_w_t3           0.130       NA                      0.799    0.799
+ .inc_w_t4 ~~                                                            
+   .gpd_w_t4           0.142       NA                      0.820    0.820
+  RI_inc ~~                                                              
+    RI_gpd         -5695.968       NA                     -1.000   -1.000
+    inc_w_t1           0.000                               0.000    0.000
+    gpd_w_t1           0.000                               0.000    0.000
+  RI_gpd ~~                                                              
+    inc_w_t1           0.000                               0.000    0.000
+    gpd_w_t1           0.000                               0.000    0.000
+
+Intercepts:
+                   Estimate   Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ink1    (c_nc)     2.479       NA                      2.479    3.325
+   .ink2    (c_nc)     2.479       NA                      2.479    3.557
+   .ink3    (c_nc)     2.479       NA                      2.479    3.484
+   .ink4    (c_nc)     2.479       NA                      2.479    3.206
+   .gpd1    (c_gp)     0.701       NA                      0.701    1.156
+   .gpd2    (c_gp)     0.701       NA                      0.701    1.636
+   .gpd3    (c_gp)     0.701       NA                      0.701    1.893
+   .gpd4    (c_gp)     0.701       NA                      0.701    1.523
+
+Variances:
+                   Estimate   Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ink1               0.000                               0.000    0.000
+   .ink2               0.000                               0.000    0.000
+   .ink3               0.000                               0.000    0.000
+   .ink4               0.000                               0.000    0.000
+   .gpd1               0.000                               0.000    0.000
+   .gpd2               0.000                               0.000    0.000
+   .gpd3               0.000                               0.000    0.000
+   .gpd4               0.000                               0.000    0.000
+    RI_inc         -9818.335       NA                         NA       NA
+    RI_gpd         -3304.405       NA                         NA       NA
+    inc_w_t1        9818.891       NA                      1.000    1.000
+   .inc_w_t2           0.684       NA                      0.000    0.000
+   .inc_w_t3           0.353       NA                      0.000    0.000
+   .inc_w_t4           0.277       NA                      0.000    0.000
+    gpd_w_t1        3304.774       NA                      1.000    1.000
+   .gpd_w_t2           0.278       NA                      0.000    0.000
+   .gpd_w_t3           0.074       NA                      0.000    0.000
+   .gpd_w_t4           0.109       NA                      0.000    0.000
+

@@ -1,0 +1,28 @@
+################### Nested Model Comparison #########################
+
+Chi-Squared Difference Test
+
+                             Df    AIC    BIC   Chisq Chisq diff Df diff Pr(>Chisq)    
+fit_detrended_constrained    17 1326.2 1406.6  10.195                                  
+fit_nondetrended_constrained 23 1452.7 1515.2 148.674     138.48       6  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+####################### Model Fit Indices ###########################
+                                chisq df pvalue rmsea    cfi    tli  srmr       aic       bic
+fit_detrended_constrained     10.195† 17   .895 .000† 1.000† 1.022† .038† 1326.255† 1406.627†
+fit_nondetrended_constrained 148.674  23   .000 .194   .750   .695  .369  1452.734  1515.245 
+
+################## Differences in Fit Indices #######################
+                                                         df rmsea   cfi    tli  srmr     aic     bic
+fit_nondetrended_constrained - fit_detrended_constrained  6 0.194 -0.25 -0.327 0.331 126.479 108.619
+
+The following lavaan models were compared:
+    fit_detrended_constrained
+    fit_nondetrended_constrained
+To view results, assign the compareFit() output to an object and  use the summary() method; see the class?FitDiff help page.
+
+
+RMSEA using detrended model as h1 model:
+rmsea 
+ 0.39 
